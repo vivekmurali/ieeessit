@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #00567B !important;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#home-section{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f2fcfe, #8cb4c9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f2fcfe, #8cb4c9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+
+.mainHeading{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.subHeading{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.aboutUs{
+
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+
+.sectionHeading{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#aboutUs{
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+.aboutUsIntro{
+    margin-top: 2rem;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+
