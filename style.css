@@ -142,27 +142,11 @@
         color: #00567B !important;
     }
 
-    .social {
-      .fa {
-        color: #807cb9 !important;
-      }
-      .fa-facebook-square {
-        margin-left: 0 !important;
-      }
-    }
+    
     .navbar-collapse {
       background-color: #fff;
       padding: 20px;
       z-index: 55;
-    }
-  
-    nav {
-      ul li > a {
-        color: #807cb9 !important;
-        &:hover {
-          opacity: 0.8;
-        }
-      }
     }
   }
   
@@ -172,11 +156,13 @@
   }
   .navbar-dark .navbar-toggler {
     border-color: transparent !important;
-    &:focus {
-      border-color: transparent !important;
     }
-  }
+    
+    /* &:focus {
+      border-color: transparent !important;
+    } */
   
+
   /* ========================
   -------- Desktop ----------
   =========================*/
@@ -192,7 +178,7 @@
     }
   }
   
-  .social {
+  /* .social {
     .fa {
       font-size: 20px;
       min-width: 44px;
@@ -210,5 +196,5 @@
       opacity: 0.7;
       text-decoration: none;
     }
-  }
+  } */
   
