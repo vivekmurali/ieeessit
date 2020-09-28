@@ -1,7 +1,7 @@
 #home-section{
-    background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f2fcfe, #8cb4c9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f2fcfe, #8cb4c9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1c92d2;  
+    background: -webkit-linear-gradient(to left, #f2fcfe, #8cb4c9);  
+    background: linear-gradient(to left, #f2fcfe, #8cb4c9); 
     padding-top: 5rem;
     padding-bottom: 7rem;
 }
@@ -50,7 +50,6 @@
 
 .home {
     height: 690px;
-    /* background: linear-gradient(to bottom left, #77c4e3, #8176b5); */
     background: linear-gradient(to top left, #ecf7f3, #00567B);
     background-size: cover;
     background-position: center !important;
@@ -126,7 +125,7 @@
   /*==============================
   ---------- Mobile View  --------
   ==============================*/
-  @media (min-width: 350px) and (max-width: 1024px) {
+  @media (min-width: 250px) and (max-width: 700px) {
     .navbar {
     padding-top: 20px;
   }
@@ -135,13 +134,17 @@
     }
 
     .social {
-      text-align: center;
+      text-align: center !important;
     }
 
     .twitterIcon, .instaIcon{
         color: #00567B !important;
     }
 
+    /* .navbar-nav{
+      background-color: white !important;
+      color:  #00567B;
+    } */
     
     .navbar-collapse {
       background-color: #fff;
@@ -157,10 +160,6 @@
   .navbar-dark .navbar-toggler {
     border-color: transparent !important;
     }
-    
-    /* &:focus {
-      border-color: transparent !important;
-    } */
   
 
   /* ========================
@@ -177,24 +176,31 @@
       font-family: "Open Sans", sans-serif;
     }
   }
-  
-  /* .social {
-    .fa {
-      font-size: 20px;
-      min-width: 44px;
-      line-height: 36px;
-      color: #f4f4f4;
+
+  /* General Tablet Size */
+  @media (min-width: 768px) and (max-width: 1020px) {
+    .navbar-collapse {
+      background-color: #fff !important;
+      padding: 20px;
+      z-index: 55;
     }
-  
-    .fa-facebook-square {
-      margin-left: 50px;
+    .nav-item, .nav-link, .nav{
+      color:#00567B !important;
+  }
+    .soci-mobile{
+      text-align: center;
+      color: #00567B !important;
     }
-  
-    .fa:hover {
-      cursor: pointer;
-      color: #f4f4f4;
-      opacity: 0.7;
-      text-decoration: none;
+    .twitterIcon,.instaIcon{
+      color: #00567B !important;
     }
-  } */
-  
+  }
+
+  /* iPad Pro Screen */
+  @media (min-width: 800px) and (max-width: 1020px) {
+    .navbar-collapse {
+      color: #fff !important;
+      padding: 20px;
+      z-index: 55;
+    }
+  }
