@@ -16,7 +16,7 @@
 
 ## Tasks:
 
-- [ ] Home Section
-- [ ] About Us
+- [x] Home Section
+- [x] About Us
 
 >Kindly add more sections
