@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -16,50 +16,57 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a style="font-size: 1rem; color:white;" href="index.html">&nbsp;IEEE SSIT</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto mr-5">
-                <a class="nav-item nav-link active ml-2" href="#aboutUs"
-                    style="font-weight: 500; color: #E1E6E1;">About us<span
-                        class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link ml-2" href="#section2"
-                    style="font-weight: 500; color: #E1E6E1;">BOARD</a>
-                    <a class="nav-item nav-link ml-2" href="#section3"
-                    style="font-weight: 500; color: #000;">projects</a>
-                <a class="nav-item nav-link ml-2" href="#section4"
-                    style="font-weight: 500; color: #000;">BLOG</a>
+    <div class="home">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand" href="#">IEEE SSIT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Leadership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    &nbsp;
+                    <div class="social mt-1 soci-mobile">
+                        <a href="#" style="color: aliceblue;" class="fab fa-facebook icon-size mr-3 instaIcon"></a>
+                        <a class="fab fa-twitter icon-size mr-3 twitterIcon" style="color: aliceblue;" href="#"></a>
+                        <a class="fab fa-instagram icon-size mr-3 instaIcon" style="color: aliceblue;" href="#"></a>
+                        <a class="fab fa-github icon-size mr-3 instaIcon" style="color: aliceblue;" href="#"></a>
+
+                    </div>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="home-heading">
+            <h1 class="mainHeading">Welcome to IEEE SSIT</h1>
+            <div class="subHeading">Home for ideas!</div>
+            <div class="hero-sub-title mt-5">
+                <a href="#" class="text-white"><i class="fa fa-play-circle"></i> Learn how innovation happens</a>
             </div>
         </div>
-    </nav>
+    </div>
 
-
-    <!-- Home Section -->
-
-    <section id="home-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="mainHeading">Welcome to IEEE SSIT</div>
-                    <div class="subHeading">Home for ideas!</div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. type specimen book. It
-                        has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.</p>
-
-                </div>
-
-                <div class="col-sm-6">
-                    <img src="./img/people.jpg" alt="people at SSIT" srcset="" height="400px" width="600px">
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- About Us -->
 
