@@ -1,3 +1,8 @@
+.ieeeLogo{
+  margin-bottom: 1.45rem;
+  margin-left: 5rem;
+}
+
 #home-section{
     background: #1c92d2;  
     background: -webkit-linear-gradient(to left, #f2fcfe, #8cb4c9);  
@@ -50,9 +55,12 @@
 
 .home {
     height: 690px;
-    background: linear-gradient(to top left, #ecf7f3, #00567B);
+    /* background: linear-gradient(to top left, #ecf7f3, #00567B); */
+    background-image: url(./img/backgroung1.png);
     background-size: cover;
     background-position: center !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
 .navbar {
@@ -133,6 +141,10 @@
         color:#00567B !important;
     }
 
+    .mainHeading{
+      font-size: 3rem;
+    }
+
     .social {
       text-align: center !important;
     }
@@ -140,16 +152,15 @@
     .twitterIcon, .instaIcon{
         color: #00567B !important;
     }
-
-    /* .navbar-nav{
-      background-color: white !important;
-      color:  #00567B;
-    } */
     
     .navbar-collapse {
       background-color: #fff;
       padding: 20px;
       z-index: 55;
+    }
+    .ieeeLogo{
+      margin-bottom: 0px;
+      margin-left: 0px;
     }
   }
   
@@ -195,6 +206,10 @@
     .twitterIcon,.instaIcon{
       color: #00567B !important;
     }
+    .ieeeLogo{
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
   }
 
   /* iPad Pro Screen */
@@ -203,5 +218,9 @@
       color: #fff !important;
       padding: 20px;
       z-index: 55;
+    }
+    .ieeeLogo{
+      margin-bottom: 0px;
+      margin-left: 0px;
     }
   }
