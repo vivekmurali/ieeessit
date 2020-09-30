@@ -19,7 +19,8 @@
     <div class="home">
         <nav class="navbar navbar-expand-lg navbar-dark">
 
-            <a class="navbar-brand" href="#"><img class="ieeeLogo" src="./img/logo.png" alt="IEEE-SSIT logo" srcset="" height="40px" width="100px"></a>
+            <a class="navbar-brand" href="#"><img class="ieeeLogo" src="./img/logo.png" alt="IEEE-SSIT logo" srcset=""
+                    height="40px" width="100px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,11 +77,9 @@
         <div class="aboutUsIntro">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
             type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+            leap into electronic typesetting</div>
 
-        <div class="container">
+        <!-- <div class="container">
             <p>
                 <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
                     aria-expanded="false" aria-controls="multiCollapseExample1">Software</a>
@@ -144,7 +143,62 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+        <!-- Implementing using SVGs -->
+        <div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <svg width="250" height="250">
+                            <circle cx="125" cy="125" r="120" class="aboutUscard" />
+                            <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="1.3rem"
+                                font-family="Arial" dy=".3em">Software Technology</text>
+                        </svg>
+                    </div>
+                    <div class="col-sm-4">
+                        <svg width="250" height="250">
+                            <circle cx="125" cy="125" r="120" class="aboutUscard" />
+                            <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="1.3rem"
+                                font-family="Arial" dy=".3em">Hardware Technology</text>
+                        </svg>
+                    </div>
+                    <div class="col-sm-4">
+                        <svg width="250" height="250">
+                            <clipPath id="myCircle">
+                                <circle cx="125" cy="125" r="120"/>
+                            </clipPath>
+                            <image xlink:href="https://www.tutorialspoint.com/videotutorials/images/coding_ground_home.jpg" clip-path="url(#myCircle)" />
+                            <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="1.3rem"
+                                font-family="Arial" dy=".3em">Management</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <svg width="250" height="250">
+                            <circle cx="125" cy="125" r="120" />
+                            <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="1.3rem"
+                                font-family="Arial" dy=".3em">Design</text>
+                        </svg>
+                    </div>
+                    <div class="col-sm-4">
+                        <svg width="250" height="250">
+                            <circle cx="125" cy="125" r="120" class="aboutUscard" />
+                            <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="1.3rem"
+                                font-family="Arial" dy=".3em">Editorial</text>
+                        </svg>
+                    </div>
+                    <!-- <div class="col-sm-4">
+                        <svg width="250" height="250">
+                            <circle cx="125" cy="125" r="120" class="aboutUscard"/>
+                            <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="1.5rem"
+                                font-family="Arial" dy=".3em">Management</text>
+                        </svg>
+                    </div> -->
+                </div>
+            </div>
         </div>
+
     </section>
 
     <!-- Our Features -->
