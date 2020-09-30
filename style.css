@@ -15,6 +15,7 @@
     font-family: 'Epilogue', sans-serif;
     font-weight: 600;
     font-size: 3.5rem;
+    margin-top: 34%;
 }
 
 .subHeading{
@@ -69,6 +70,7 @@
     background-position: center !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 100vh;
   }
 
 .navbar {
@@ -132,7 +134,63 @@
   .hero-sub-title > a:hover {
     color: #f4f4f4;
   }
+
+  /* Board section */
+  .card-container {
+    display: grid;
+    grid-gap: 50px 50px;
+  }
+
+  .card-column{
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .card-area {
+    width: 20%;
+    height: 10%;
+    overflow: hidden;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
   
+  .card:hover{
+    margin: 20px 20px;
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+  }
+
+  .card a i{
+    font-size: 2em;
+    color: black;
+    margin: 5px;
+  }
+
+  .card img{
+    border-radius: 50%;
+    padding: 50px;
+    float: top;
+  }
+
+  .img-text{
+    background: #ffffff;
+    margin-top:-25px;
+    padding: 20px 60px;
+    color: #262626;
+  }
+
+  .img-text h2{
+    font-size: 20px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin: 0;
+  }
+
   /* 
   =================================
   --------- Media Query -----------
@@ -182,6 +240,9 @@
     .ieeeLogo{
       margin-bottom: 0px;
       margin-left: 0px;
+    }
+    .card-column{
+      width: 100%;
     }
   }
   
