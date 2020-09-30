@@ -55,9 +55,12 @@
 
 .home {
     height: 690px;
-    background: linear-gradient(to top left, #ecf7f3, #00567B);
+    /* background: linear-gradient(to top left, #ecf7f3, #00567B); */
+    background-image: url(./img/backgroung1.png);
     background-size: cover;
     background-position: center !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
 .navbar {
@@ -136,6 +139,10 @@
   }
     .nav-item, .nav-link, .nav{
         color:#00567B !important;
+    }
+
+    .mainHeading{
+      font-size: 3rem;
     }
 
     .social {
