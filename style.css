@@ -153,6 +153,19 @@
       font-size: 3rem;
     }
 
+    #aboutUs{
+      padding: 0%;
+    }
+
+    .sectionHeading{
+      margin-top: 2rem;
+    }
+
+   .aboutUsIntro{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
     .social {
       text-align: center !important;
     }
