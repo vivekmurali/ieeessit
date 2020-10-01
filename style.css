@@ -34,8 +34,11 @@
     font-weight: 600;
     font-size: 3rem;
     text-align: center;
+    padding-top: 2rem;
 }
-
+.custom{
+  margin-top: -2rem;
+}
 #aboutUs{
     padding-top: 5rem;
     padding-bottom: 7rem;
@@ -59,6 +62,9 @@
     background-repeat: no-repeat;
 }
 
+#leadership{
+  background-color: grey;
+}
 /* Navbar */
 
 .home {
@@ -155,9 +161,28 @@
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+    margin: auto;
   }
   
+  .domainCards{
+    border-radius: 50%;
+    height: 17rem;
+    width: 17rem;
+    background-image: url("./img/Group\ 7.png");
+    background-size: cover;
+    background-position: center !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .domainCardstext{
+    text-align: center;
+    padding: 16%;
+    border-radius: 13rem;
+    color: white;
+  }
+
   .card:hover{
     margin: 20px 20px;
     transform: scale(1.1);
@@ -190,6 +215,10 @@
     margin: 0;
   }
 
+.spacing{
+  margin-bottom: 2rem;
+}
+
   /* 
   =================================
   --------- Media Query -----------
@@ -203,7 +232,7 @@
     padding-top: 20px;
   }
     .nav-item, .nav-link, .nav{
-        color:#00567B !important;
+        color:#021119 !important;
     }
 
     .mainHeading{
@@ -216,6 +245,7 @@
 
     .sectionHeading{
       margin-top: 2rem;
+      padding-top: 2rem;
     }
 
    .aboutUsIntro{
@@ -277,15 +307,29 @@
       padding: 20px;
       z-index: 55;
     }
+    #aboutUs{
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .domainCards{
+      height: 13rem;
+      width: 13rem;
+    }
+
+    .domainCardstext{
+      padding:10.5%;
+    }
+
     .nav-item, .nav-link, .nav{
-      color:#00567B !important;
+      color:#021119 !important;
   }
     .soci-mobile{
       text-align: center;
-      color: #00567B !important;
+      color: #021119 !important;
     }
     .twitterIcon,.instaIcon{
-      color: #00567B !important;
+      color: #021119!important;
     }
     .ieeeLogo{
       margin-bottom: 0px;
