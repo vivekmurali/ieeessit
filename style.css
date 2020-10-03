@@ -14,13 +14,13 @@
 .mainHeading{
     font-family: 'Epilogue', sans-serif;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 4.0rem;
 }
 
 .subHeading{
     font-family: 'Epilogue', sans-serif;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 
 .aboutUs{
@@ -35,6 +35,10 @@
     font-size: 3rem;
     text-align: center;
     padding-top: 2rem;
+}
+
+.sectionHeadingLight{
+  color: #ffffff;
 }
 .custom{
   margin-top: -2rem;
@@ -63,7 +67,8 @@
 }
 
 #leadership{
-  background-color: grey;
+  padding: 2% 0 4% 0;
+  background-color: #021119;
 }
 /* Navbar */
 
@@ -118,7 +123,7 @@
 .home-heading {
     color: #fff;
     position: absolute;
-    top: 220px;
+    top: 40%;
     left: 0;
     right: 0;
     margin: auto;
@@ -134,6 +139,7 @@
   
   .hero-sub-title {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
   }
   
   .hero-sub-title > a:hover {
@@ -183,10 +189,12 @@
     color: white;
   }
 
-  .card:hover{
-    margin: 20px 20px;
-    transform: scale(1.1);
-    transition: 0.8s ease-in-out;
+  .card-column .card:hover{
+    /* margin: 20px 20px; */
+    transform: scale(1.06);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.4s ease-out;
+    z-index: 100;
   }
 
   .card a i{
