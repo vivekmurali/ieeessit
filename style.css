@@ -30,7 +30,7 @@
 }
 
 .sectionHeading{
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Equinox', sans-serif;
     font-weight: 600;
     font-size: 3rem;
     text-align: center;
@@ -357,3 +357,9 @@
       margin-left: 0px;
     }
   }
+
+  @font-face {
+    font-family: "Equinox";
+    src: url("./fonts/Equinox Regular.woff") format("woff"),
+    url("./fonts/Equinox Bold.woff") format("woff");
+    }
