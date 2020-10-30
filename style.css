@@ -234,7 +234,11 @@
   margin-bottom: 2rem;
 }
 .lastRow{
-  margin-left: 8em;
+  margin-left: 20%;
+}
+
+.lastRowDes{
+  margin-left: 2%;
 }
 
   /* 
@@ -246,6 +250,12 @@
   ---------- Mobile View  --------
   ==============================*/
   @media (min-width: 250px) and (max-width: 700px) {
+    .lastRowDes{
+      margin-left: 0;
+    }
+    .lastRow{
+      margin-left: 0;
+    }
     .navbar {
     padding-top: 20px;
   }
