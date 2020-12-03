@@ -247,6 +247,14 @@ body {
 .title {
   text-align: center;
 }
+
+.card-title {
+  text-align: center !important;
+  align-self: center !important;
+  justify-content: center !important;
+  margin-top: 30% !important;
+  margin: auto;
+}
 /* 
   =================================
   --------- Media Query -----------
@@ -556,6 +564,13 @@ p.footer {
   float: none !important;
 }
 @media (max-width: 767px) {
+  .card-column .card:hover {
+    /* margin: 20px 20px; */
+    transform: none;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+    z-index: 100;
+  }
+
   ul.timeline:before {
     left: 40px;
   }
